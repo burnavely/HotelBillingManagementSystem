@@ -1,0 +1,44 @@
+/* USER INDEX CSS */
+
+body{
+		
+		background: #3a6186; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	}
+	
+.no-overflow{
+	overflow-y: hidden;
+}
+.masthead {
+	height: 100vh;
+	background-image: url('../imgs/bg_header.jpeg');
+	background-size: cover;
+	background-position: center 50px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.masthead h2, .masthead h3, .cardh{
+	font-family: 'Montserrat', sans-serif;
+}
+.cardh{
+	font-size: 12px;
+}
+
+.userNavbar a{
+	transition: 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  margin: 0 5px;
+  font-size: 17px;
+}
+
+.userNavbar a:hover{
+	border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 6px 0; 
+}

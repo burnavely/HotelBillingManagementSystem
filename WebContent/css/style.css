@@ -1,0 +1,363 @@
+/* GENERAL CSS */
+*{
+	margin:0px;
+	padding:0px;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+/*ADDITIONAL BG COLORS*/
+.bg-blue{
+	background-color: #0d6efd;
+	color: white;
+}    
+.bg-indigo{
+	background-color: #6610f2;
+    color: white;
+} 
+
+.bg-purple{
+	background-color: #6f42c1;
+    color: white;
+}  
+.bg-pink{
+	background-color: #d63384;
+    color: white;
+}  
+.bg-red{
+	background-color: #dc3545;
+    color: white;
+} 
+.bg-orange{
+	background-color: #fd7e14;
+    color: white;
+}
+.bg-yellow{
+	background-color: #ffc107;
+    color: white;
+} 
+.bg-green{
+	background-color: #198754;
+    color: white;
+}  
+.bg-teal{
+	background-color:  #20c997;
+    color: white;
+}  
+.bg-cyan{
+	background-color:  #0dcaf0;
+    color: white;
+} 
+
+/*ADDITIONAL TEXT COLORS*/
+.text-blue{
+	color: #0d6efd;
+}    
+.text-indigo{
+	color: #6610f2;
+} 
+
+.text-purple{
+	color: #6f42c1;
+}  
+.text-pink{
+	color: #d63384;
+}  
+.text-red{
+	color: #dc3545;
+} 
+.text-orange{
+	color: #fd7e14;
+}
+.text-yellow{
+	color: #ffc107;
+} 
+.text-green{
+	color: #198754;
+}  
+.text-teal{
+	color:  #20c997;
+}  
+.text-cyan{
+	color:  #0dcaf0;
+} 
+
+/*ADDITIONAL BTN COLORS*/
+.btn-blue{
+    background-color: #0d6efd;
+    color: white;
+}    
+.btn-indigo{
+    background-color: #6610f2;
+    color: white;
+} 
+
+.btn-purple{
+    background-color: #6f42c1;
+    color: white;
+}  
+.btn-pink{
+    background-color: #d63384;
+    color: white;
+}  
+.btn-red{
+    background-color: #dc3545;
+    color: white;
+} 
+.btn-orange{
+    background-color: #fd7e14;
+    color: white;
+}
+.btn-yellow{
+    background-color: #ffc107;
+    color: white;
+} 
+.btn-green{
+    background-color: #198754;
+    color: white;
+}  
+.btn-teal{
+    background-color:  #20c997;
+    color: white;
+}  
+.btn-cyan{
+    background-color:  #0dcaf0;
+    color: white;
+} 
+
+/*BTN HOVER*/
+.btn-blue:hover{
+    background-color: #025ce3;
+    color: white;
+}    
+.btn-indigo:hover{
+    background-color: #5a0cdc;
+    color: white;
+} 
+
+.btn-purple:hover{
+    background-color: #643ab1;
+    color: white;
+}  
+.btn-pink:hover{
+    background-color: #bc2571;
+    color: white;
+}  
+.btn-red:hover{
+    background-color: #bc2131;
+    color: white;
+} 
+.btn-orange:hover{
+    background-color: #f06d02;
+    color: white;
+}
+.btn-yellow:hover{
+    background-color: #eaaf00;
+    color: white;
+} 
+.btn-green:hover{
+    background-color: #157346;
+    color: white;
+}  
+.btn-teal:hover{
+    background-color:  #1db185;
+    color: white;
+}  
+.btn-cyan:hover{
+    background-color:  #0cb6da;
+    color: white;
+} 
+
+/* ADDITIONAL TEXT-COLORS */
+
+
+/* LOGIN/REGISTRATION CSS */
+
+.reghead{
+	height: 100vh;
+	background-image: url('../imgs/bg_reg.gif');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.reghead .container{
+	padding-top: 8%;
+	max-width: 600px;
+}
+
+.box {
+    padding: 5%;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+}
+
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 50%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 80%;
+    border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.forgot {
+   text-decoration: none;
+}
+.forgot:hover {
+   text-decoration: underline;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+
+/* ADMIN INDEX CSS */
+
+/*SIDE NAVBAR*/
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 70px 0 0 10px;
+}
+
+.sidebar-left{
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 70px);
+}
+
+.sidebar-nav li .nav-link:hover{
+    background-color: white;
+    color:black;
+}
+
+.sidebar-nav li .nav-link{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sidebar-nav li .nav-link svg, .card-header h5 svg{
+	margin-right:10px;
+}
+
+
+.sidebar-nav hr{
+    color: white;
+}
+
+/*DASHBOARD*/
+.c1 a svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
